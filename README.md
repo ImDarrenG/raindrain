@@ -1,7 +1,7 @@
 # raindrain
 Why look out of the window to see if it's raining, when you can use this one weird script?
 
-This script downloads MetOffice rainfall radar scans
+This script downloads UK rainfall radar map layer images from the MetOffice.
 
 This is a quick and dirty script that, given your API key and a target path, will download UK rainfall radar images.
 
