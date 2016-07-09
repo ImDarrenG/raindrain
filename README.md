@@ -1,5 +1,7 @@
 # raindrain
-Script that downloads MetOffice rainfall radar scans
+Why look out of the window to see if it's raining, when you can use this one wierd script?
+
+This script downloads MetOffice rainfall radar scans
 
 This is a quick and dirty script that, given your API key and a target path, will download UK rainfall radar images.
 
@@ -15,3 +17,4 @@ For more information about the data/api see: http://www.metoffice.gov.uk/datapoi
 * The API endpoint exposes other data, download the other data, maybe determine which by looking at args
 * Pass API key and data path in args rather than hardcoded
 * Use the image format as the saved file extension
+* Find a purpose for it
