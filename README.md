@@ -1,13 +1,11 @@
 # raindrain
 Why look out of the window to see if it's raining, when you can use this one weird script?
 
-This script downloads UK rainfall radar map layer images from the MetOffice.
+This quick and dirty script downloads UK rainfall radar map layer images from the MetOffice.
 
-This is a quick and dirty script that, given your API key and a target path, will download UK rainfall radar images.
+To use it, replace your API key, and if necessary, the value for data path - the directory where the images will be stored.
 
-To use it, replace your API key, and if necessary, the value for data path, the directory where the images will be stored.
-
-I use cron on a Pi to run the script every 15 minutes, which is the rate that new images are made available to the API.
+I use cron on a Pi to run the script every 15 minutes, which is the rate that new images are made available by the API.
 
 ### More info
 For more information about the data/api see: http://www.metoffice.gov.uk/datapoint/product/rainfall-radar-map-layer
